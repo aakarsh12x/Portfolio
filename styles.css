@@ -1233,7 +1233,6 @@ section:hover::before {
         linear-gradient(0deg, transparent 98%, rgba(167, 139, 250, 0.1) 100%);
     background-size: 50px 50px;
     pointer-events: none;
-    animation: gridMove 30s linear infinite;
     opacity: 0.3;
 }
 
@@ -1283,15 +1282,6 @@ section:hover::before {
     66% {
         transform: translateY(-15px) translateX(-25px) rotate(240deg);
         opacity: 0.4;
-    }
-}
-
-@keyframes gridMove {
-    0% {
-        transform: translateX(0) translateY(0);
-    }
-    100% {
-        transform: translateX(50px) translateY(50px);
     }
 }
 
